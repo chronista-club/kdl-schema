@@ -20,6 +20,16 @@
         "@types/bun": "latest",
       },
     },
+    "packages/codegen-zod": {
+      "name": "@kdl-schema/codegen-zod",
+      "version": "0.0.1",
+      "dependencies": {
+        "@kdl-schema/parser": "workspace:*",
+      },
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+    },
     "packages/kdl-parser": {
       "name": "@kdl-schema/parser",
       "version": "0.0.1",
@@ -61,6 +71,8 @@
     "@chevrotain/utils": ["@chevrotain/utils@11.2.0", "", {}, "sha512-+7whECg4yNWHottjvr2To2BRxL4XJVjIyyv5J4+bJ0iMOVU8j/8n1qPDLZS/90W/BObDR8VNL46lFbzY/Hosmw=="],
 
     "@kdl-schema/codegen-ts": ["@kdl-schema/codegen-ts@workspace:packages/codegen-ts"],
+
+    "@kdl-schema/codegen-zod": ["@kdl-schema/codegen-zod@workspace:packages/codegen-zod"],
 
     "@kdl-schema/parser": ["@kdl-schema/parser@workspace:packages/kdl-parser"],
 
