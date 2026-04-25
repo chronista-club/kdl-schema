@@ -1,4 +1,27 @@
-# kdl-schema
+# kdl-schema (ARCHIVED)
+
+> ## ⚠️ This repository has moved
+>
+> All packages from `kdl-schema` were absorbed into **[chronista-club/chronista-hub](https://github.com/chronista-club/chronista-hub)** as `packages/*` on **2026-04-25**, following the monorepo consolidation strategy.
+>
+> Active development continues there. This repo is kept as a historical reference (archived = read-only).
+>
+> ### New locations
+>
+> | Old | New |
+> |---|---|
+> | `chronista-club/kdl-schema/packages/kdl-parser` | `chronista-club/chronista-hub/packages/kdl-parser` |
+> | `chronista-club/kdl-schema/packages/codegen-ts` | `chronista-club/chronista-hub/packages/codegen-ts` |
+> | `chronista-club/kdl-schema/packages/codegen-zod` | `chronista-club/chronista-hub/packages/codegen-zod` |
+> | `chronista-club/kdl-schema/packages/codegen-surql` | `chronista-club/chronista-hub/packages/codegen-surql` |
+> | `chronista-club/kdl-schema/packages/codegen-rust` | `chronista-club/chronista-hub/packages/codegen-rust` |
+> | `chronista-club/kdl-schema/packages/cli` | `chronista-club/chronista-hub/packages/cli` |
+>
+> Hub root scripts: `bun run gen | gen:ts | gen:zod | gen:surql` (all in chronista-hub now).
+>
+> Reference: [chronista-hub PR #7](https://github.com/chronista-club/chronista-hub/pull/7) absorbed all packages on 2026-04-25.
+
+---
 
 KDL spec → TypeScript / Zod / Rust / SurrealQL codegen tool for the Chronista ecosystem.
 
