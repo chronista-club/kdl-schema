@@ -10,6 +10,16 @@
         "typescript": "^5.7.0",
       },
     },
+    "packages/codegen-rust": {
+      "name": "@kdl-schema/codegen-rust",
+      "version": "0.0.1",
+      "dependencies": {
+        "@kdl-schema/parser": "workspace:*",
+      },
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+    },
     "packages/codegen-surql": {
       "name": "@kdl-schema/codegen-surql",
       "version": "0.0.1",
@@ -79,6 +89,8 @@
     "@chevrotain/types": ["@chevrotain/types@11.2.0", "", {}, "sha512-vBMSj/lz/LqolbGQEHB0tlpW5BnljHVtp+kzjQfQU+5BtGMTuZCPVgaAjtKvQYXnHb/8i/02Kii00y0tsuwfsw=="],
 
     "@chevrotain/utils": ["@chevrotain/utils@11.2.0", "", {}, "sha512-+7whECg4yNWHottjvr2To2BRxL4XJVjIyyv5J4+bJ0iMOVU8j/8n1qPDLZS/90W/BObDR8VNL46lFbzY/Hosmw=="],
+
+    "@kdl-schema/codegen-rust": ["@kdl-schema/codegen-rust@workspace:packages/codegen-rust"],
 
     "@kdl-schema/codegen-surql": ["@kdl-schema/codegen-surql@workspace:packages/codegen-surql"],
 
