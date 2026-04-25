@@ -10,6 +10,23 @@
         "typescript": "^5.7.0",
       },
     },
+    "packages/cli": {
+      "name": "@kdl-schema/cli",
+      "version": "0.0.1",
+      "bin": {
+        "kdl-schema": "./bin/kdl-schema.ts",
+      },
+      "dependencies": {
+        "@kdl-schema/codegen-rust": "workspace:*",
+        "@kdl-schema/codegen-surql": "workspace:*",
+        "@kdl-schema/codegen-ts": "workspace:*",
+        "@kdl-schema/codegen-zod": "workspace:*",
+        "@kdl-schema/parser": "workspace:*",
+      },
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+    },
     "packages/codegen-rust": {
       "name": "@kdl-schema/codegen-rust",
       "version": "0.0.1",
@@ -89,6 +106,8 @@
     "@chevrotain/types": ["@chevrotain/types@11.2.0", "", {}, "sha512-vBMSj/lz/LqolbGQEHB0tlpW5BnljHVtp+kzjQfQU+5BtGMTuZCPVgaAjtKvQYXnHb/8i/02Kii00y0tsuwfsw=="],
 
     "@chevrotain/utils": ["@chevrotain/utils@11.2.0", "", {}, "sha512-+7whECg4yNWHottjvr2To2BRxL4XJVjIyyv5J4+bJ0iMOVU8j/8n1qPDLZS/90W/BObDR8VNL46lFbzY/Hosmw=="],
+
+    "@kdl-schema/cli": ["@kdl-schema/cli@workspace:packages/cli"],
 
     "@kdl-schema/codegen-rust": ["@kdl-schema/codegen-rust@workspace:packages/codegen-rust"],
 
